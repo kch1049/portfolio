@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <!-- <link rel="stylesheet" href="./css/my.css"> -->
+    <link rel="stylesheet" href="./css/my.min.css">
+    <!-- <script src="./js/myscript.js"></script> -->
+    <script src="./js/myscript.min.js"></script>
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
+   
+    
+    <!-- 문서 맨위에 section만들고 fixed로 화면 꽉 채우고 roading창 만들고 
+    setTimeout 써서 시간되면 hide 쓰고 
+    setinterval 써서 이쁘게 5 4 3 2 1 만들고  -->
+</head>
+<body>
+    <section class="wrap">
+        <header class="header">
+            <div class="navi">
+                <div class="btn-nav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="#sec01">MAIN</a></li>
+                        <li><a href="#sec02"> PROFILE</a></li>
+                        <li><a href="#sec03"> PORTFOLIO</a></li>
+                        <li><a href="#sec04"> MYSKILL</a></li>
+                        
+                    </ul>
+                    <ul class="sub-nav">
+                        <li><a href=""><img src="./images/facebook.svg" alt=""></a></li>
+                        <li><a href=""><img src="./images/instagram.svg" alt=""></a></li>
+                        <li><a href=""><img src="./images/twitter.svg" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="sec01" id="sec01">
+            <div class="videos">
+                <video src="./media/bubbles.mp4" autoplay muted loop></video>
+            </div>
+            <div class="intro">
+                <h2>
+                    Nice to <br> meet you!
+                </h2>
+                <span class="kch">kch</span>
+            </div>
+            
+        </section>
+        <section class="sec02" id="sec02">
+            <ul class="sec02-list">
+                <li>
+                    <div class="profile">
+                        <img src="./images/selfpic.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="sec02-text">
+                                <h3>안녕하세요 <br>
+                                    밝은 에너자이저 김창환입니다. :) </h3>
+                                
+                                    
+                                <p>
+                                        저는 유한대학교 E비즈니스과를 졸업하고 <br>
+                                        수업을 들으며 웹사이트 구축 및 자바, 웹디자인, <br>
+                                        앱 구축 등을 통해 코딩을 알게 되었습니다.<br>
+                                </p>
+                                    <p>
+                                        전역 후 기존 전공을 살려보고자 <br>
+                                        관련된 전공이 있는 학원에서 수업을 들었습니다.<br>
+                                        수업을 들으며 대학생때보다 더 코딩에 재미를 느꼈습니다.
+                                </p>
+                    </div>
+                </li>
+            </ul>
+           
+           
+        </section>
+        <section class="sec03" id="sec03">
+                <div class="container slider">
+                    <ul>
+                        <li class="click">
+                            <img src="./images/clickhere.png" alt="">
+                        </li>
+                        <li class="project01-li project-li">
+                            <a href="#" class="popup-a">
+                                <div class="porject01-img">
+                                    <img src="./images/project01" alt="" id="img01">
+                                </div>
+                            </a>
+                                <div class="project01-text">
+                                    <h5>유한대학교 E-비즈니스과</h5> <br>
+                                    <p>#웹사이트 구축 <br> #자바</p>
+                                    <p>#하이브리드앱 구축 <br> #UI/UX디자인</p>
+                                </div>
+                        </li>
+                        <li class="project02-li project-li">
+                            <a href="https://github.com/kch1049/hana/" target="_blank">
+                                <div class="project02-img">
+                                    <img src="./images/project02.svg" alt="" id="img02">
+                                </div>
+                            </a>
+                                <div class="project02-text">
+                                    <h5>하나 성형 외과</h5> <br>
+                                    <p>#반응형 WEB PAGE</p>
+                                    <p>#재구성</p>
+                                </div>
+                        </li>
+                        <li class="project03-li project-li">
+                            <a href="https://github.com/kch1049/Mozilla" target="_blank">
+                                <div class="project03-img">
+                                    <img src="./images/project03.svg" alt="" id="img03">
+                                </div>
+                            </a>
+                                <div class="project03-text">
+                                    <h5>Mozilla</h5> <br>
+                                    <p>#반응형 WEB PAGE</p>
+                                    <p>#재구성</p>
+                                </div>
+                        </li>
+                        <li class="project04-li project-li">
+                            <a href="https://github.com/kch1049/Megabox" target="_blank" >
+                                <div class="project04-img">
+                                    <img src="./images/project04.png" alt="" id="img04">
+                                </div>
+                            </a>
+                                <div class="project04-text">
+                                    <h5>MegaBox</h5> <br>
+                                    <p>#반응형 WEB PAGE</p>
+                                    <p>#재구성</p>
+                                </div>
+                        </li>
+                        <li>
+                            <img class="prev-next" src="./images/chevron-left-solid.svg">
+                        </li>
+                        <li>
+                            <img class="prev-next2" src="./images/chevron-right-solid.svg" >
+                        </li>
+                    </ul>
+                </div>
+                <section class="popup">
+                    <div class="popup-box">
+                        <div class="popup-img">
+                        <a href="./project01.html">
+                             <img src="./images/img01.jpg" alt="">
+                         </a>
+                        </div> 
+                        <div class="clearfix">
+                        <button class="pop-btn">
+                            <img src="./images/ximage.svg" alt="">
+                        </button>
+                        </div>
+                        </div>
+                </section>
+        </section>
+        
+        <section class="sec04" id="sec04">
+                <div class="sec04-list">
+                    <h5>My skill</h5>
+                    <ul>
+                        <div class="grid01">
+                        <li>
+                            <span class="html"></span>
+                            <p>90%</p>
+                        </li>
+                        <h6>HTML</h6>
+                        </div>
+                        <div class="grid02">
+                        <li>
+                            <span class="css"></span>
+                            <p>80%</p>
+                        </li>
+                        <h6>CSS</h6>
+                        </div>
+                        <div class="grid03">
+                        <li>
+                            <span class="java"></span>
+                            <p>60%</p>
+                        </li>
+                        <h6>JAVA</h6>
+                        </div>
+                        <div class="grid04">
+                        <li>
+                            <span class="jquery"></span>
+                            <p>70%</p>
+                        </li>
+                        <h6>Jquery</h6> 
+                        </div>
+                    </ul>
+                </div>
+        </section>
+        <section class="sec05">
+                    <h6>CONTACT ME</h6>
+                    <br>
+                <div class="intro-box">
+                    <div class="user">
+                        <img src="./images/user.svg" alt="">
+                        <p>김창환 (2000.04.29)</p>
+                    </div>
+                    <div class="phone">
+                        <img src="./images/phone.svg" alt="">
+                        <p>010-9980-1049</p>
+                    </div>
+                    <div class="mail">
+                        <img src="./images/mail.svg" alt="">
+                        <p>kch1049@naver.com</p>
+                    </div>
+                    <div class="map">
+                        <img src="./images/map.svg" alt="">
+                        <p>인천 서구 아라동</p>
+                    </div>
+                </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-text">
+            © 2022. kim chang hwan All rights reserved.
+            </div>
+            <button class="btn-top">
+                <img src="./images/up.svg" alt="">
+            </button>
+        </footer>
+    </section>
+</body>
+</html>
