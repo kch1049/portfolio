@@ -443,7 +443,6 @@
         }
         .footer{
             background-color: lightgoldenrodyellow;
-            position: relative;
             width: 100%;
             padding: 40px 20px;
             margin: 0 auto;
@@ -454,10 +453,9 @@
             text-align: center;
         }
         .footer .btn-top{
-            position: absolute;
-            top: 50%;
+            position: fixed;
+            bottom: 20px;
             right: 0%;
-            transform: translateY(-50%);
             font-weight: 600;
             font-size: large;
             color: inherit;
